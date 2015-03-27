@@ -37,6 +37,14 @@ class DefaultController extends Controller
     }
     
     /* C */
+    
+    /**
+     * @Route("/people-who-know.html", name="people-who-know")
+     */
+    public function peoplewhoknowAction()
+    {
+        return $this->render('default/people-who-know.html.twig');
+    }
 
     /* D */
     /**
