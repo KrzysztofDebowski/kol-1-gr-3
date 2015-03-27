@@ -246,6 +246,13 @@ public function peopleAction()
     {
         return $this->render('default/snooze.html.twig');
     }
+    /**
+    * @Route("/spade.html", name="spade")
+    */
+    public function  spadeAction()
+    {
+      return $this->render('default/spade.html.twig');
+    }
     /* T */
 
     /* U */
