@@ -54,7 +54,13 @@ class DefaultController extends Controller
     /* R */
 
     /* S */
-
+    /**
+    * @Route("/spade.html", name="spade")
+    */
+    public function  spadeAction()
+    {
+      return $this->render('default/spade.html.twig');
+    }
     /* T */
 
     /* U */
