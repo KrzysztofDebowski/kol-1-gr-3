@@ -109,7 +109,13 @@ class DefaultController extends Controller
 	    return $this->render('default/in-one-ear.html.twig');
 	}
     /* J */
-
+    /**
+     * @Route("/tospeak.html", name="tospeak")
+     */
+    public function tospeakAction()
+    {
+       return $this->render('default/tospeak.html.twig');
+    }
     /* K */
         /**
          * @Route("/kill.html", name="kill")
