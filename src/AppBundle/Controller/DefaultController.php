@@ -250,6 +250,13 @@ public function peopleAction()
 {
     return $this->render('default/people.html.twig');
 }
+/**
+ * @Route("/QuickOpcja.html", name="quickop")
+ */
+public function quickopAction()
+{
+    return $this->render('default/QuickOpcja.html.twig');
+}
     /* R */
         /**
         * @Route("/focusontoday.html", name="focusontoday")
