@@ -250,6 +250,15 @@ public function peopleAction()
 {
     return $this->render('default/people.html.twig');
 }
+
+ /**
+     * @Route("/Quick.html", name="quick")
+     */
+    public function quickAction()
+    {
+        return $this->render('default/Quick.html.twig');
+    }
+
     /* R */
         /**
         * @Route("/focusontoday.html", name="focusontoday")
